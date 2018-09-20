@@ -1,0 +1,473 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei UI", serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #07cbc9;
+}
+
+.logo {
+    height: 100px;
+    float: left;
+}
+
+.logo img {
+    text-align: center;
+    margin: 26px 0 0 100px;
+
+}
+
+.nav {
+    height: 100px;
+    float: right;
+    margin-right: 60px;
+}
+
+.nav ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav ul li {
+    float: left;
+    line-height: 100px;
+    /*margin-right: 30px;*/
+    cursor: pointer;
+    padding: 0 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.nav ul li:hover {
+    background-color: #000;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.banner .bannerimage {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.bannerimage img {
+    width: 100%;
+    height: 600px;
+}
+
+.background {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+
+.banner .text {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -200px;
+    /* background-color: aqua;*/
+}
+
+.banner .text input {
+    width: 360px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.banner .text input:hover, textarea:hover {
+    border: 2px solid #07cbc9;
+}
+
+.banner .text .button:hover {
+    background-color: #07cbc9;
+}
+
+textarea {
+    width: 360px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+}
+
+.input1 {
+    margin-top: 100px;
+}
+
+.banner .text .button {
+    width: 120px;
+    height: 40px;
+    margin-left: 140px;
+    color: white;
+}
+
+.about {
+    width: 100%;
+    height: 800px;
+    margin: 30px auto 0;
+    /*background-color: #07cbc9;*/
+}
+
+.about .topabout {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.about .topabout .titleabout {
+    font-size: 60px;
+    width: 400px;
+    margin: 0 auto;
+    font-weight: bold;
+    /*background-color: aqua;*/
+    text-align: center;
+}
+
+.about .topabout .titleabout hr {
+    width: 40px;
+    background-color: #07cbc9;
+    height: 3px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.about .topabout .introductionabout {
+    font-size: 12px;
+    color: lightslategrey;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.about .middleabout {
+    width: 80%;
+    height: 450px;
+    /*background-color: #07cbc9;*/
+    margin: 10px auto 0;
+    position: relative;
+}
+
+.about .middleabout .middleleft {
+    float: left;
+    width: 300px;
+    /*margin-left: 180px;
+    margin-top: 50px;
+    margin-right: 45px;*/
+    height: 400px;
+    /*background-color: red;*/
+}
+
+.about .middleabout .middleleft .lefttitle {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about .middleabout .middleleft .leftword {
+    border: 1px solid gray;
+    width: 350px;
+    height: 180px;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 10px;
+    /*margin-left: 70px;*/
+    padding: 20px 0 0 20px;
+    line-height: 22px;
+}
+
+.about .middleabout .leftwordBackground {
+    position: absolute;
+    width: 372px;
+    height: 202px;
+    margin-top: 10px;
+    /*margin-left: 70px;*/
+    background-color: white;
+    opacity: 0.3;
+}
+
+.about .middleabout .middleleft .leftword span {
+    display: block;
+    width: 90px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    position:relative;
+    z-index:999;
+}
+
+.about .middleabout .middleleft .leftword span:hover{
+    background-color: #07cbc9;
+    display:block;
+}
+
+.about .middleabout .middlem {
+    width: 600px;
+    float: left;
+    /*margin-right: 45px;*/
+}
+
+.about .middleabout .middleright {
+    float: right;
+    /*margin-right: 180px;*/
+    /*background-color: red;*/
+    /*width: 300px;*/
+    height: 450px;
+}
+
+.about .middleabout .middleright .mright1 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid #07cbc9;
+    font-size: 25px;
+    /*margin-left: 75px;*/
+
+    text-align: center;
+    padding-top: 25px;
+}
+
+.about .middleabout .middleright .mright2 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid #07cbc9;
+    font-size: 25px;
+    /*margin-left: 75px;*/
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.about .middleabout .middleright hr {
+    width: 20%;
+    height: 1px;
+    background-color: #07cbc9;
+    margin-left: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.about .middleabout .middleright .students {
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.about .bottomabout {
+    width: 100%;
+    height: 720px;
+    margin-top: 44px;
+    background-color: #07cbc9;
+    overflow: hidden;
+}
+
+.bottomabout img {
+    width: 100%;
+    height: 360px;
+}
+
+.about .bottomabout .library {
+    float: left;
+    width: 25%;
+    /*margin-left:0px;*/
+}
+
+.about .bottomabout .libaryIntroduction {
+    width: 25%;
+    height: 360px;
+    float: left;
+    /*background-color: white;*/
+}
+
+.about .bottomabout .libaryIntroduction h3, .computerLabIntroduction h3, .conferenceHallIntroduction h3, .playgroundIntroduction h3 {
+    font-size: 30px;
+    margin: 40px 0 20px 30px;
+    color: white;
+}
+
+.about .bottomabout .libaryIntroduction .paragraph1, .computerLabIntroduction .paragraph3, .conferenceHallIntroduction .paragraph5, .playgroundIntroduction .paragraph7 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 0 30px;
+}
+
+.about .bottomabout .libaryIntroduction .paragraph2, .computerLabIntroduction .paragraph4, .conferenceHallIntroduction .paragraph6, .playgroundIntroduction .paragraph8 {
+    color: lightslategrey;
+    margin: 20px 30px 0 30px;
+    font-size: 15px;
+}
+
+.about .bottomabout .libaryIntroduction span, .computerLabIntroduction span, .conferenceHallIntroduction span, .playgroundIntroduction span, .playgroundIntroduction span {
+    margin: 40px auto;
+    display: block;
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border:2px solid #07cbc9;
+}
+
+.about .bottomabout .libaryIntroduction span:hover, .computerLabIntroduction span:hover, .conferenceHallIntroduction span:hover, .playgroundIntroduction span:hover, .playgroundIntroduction span:hover{
+    background-color: #07cbc9;
+    border:2px solid #ccc;
+    display:block;
+}
+
+.about .bottomabout .computerLab {
+    width: 25%;
+    height: 360px;
+    float: left;
+}
+
+.about .bottomabout .computerLabIntroduction {
+    width: 25%;
+    height: 360px;
+    float: left;
+    margin-top: -4px;
+}
+
+.about .bottomabout .conferenceHallIntroduction {
+    width: 25%;
+    height: 360px;
+    float: left;
+    margin-top: -4px;
+}
+
+.about .bottomabout .conferenceHall {
+    width: 25%;
+    height: 360px;
+    float: left;
+    margin-top: -4px;
+}
+
+.about .bottomabout .playgroundIntroduction {
+    width: 25%;
+    height: 360px;
+    float: left;
+    margin-top: -4px;
+}
+
+.about .bottomabout .playground {
+    width: 25%;
+    height: 360px;
+    float: left;
+    margin-top: -4px;
+}
+
+.gallery {
+    width: 100%;
+    height: 900px;
+    margin: 650px auto 0;
+}
+
+.gallery .topGallery {
+    width: 100%;
+    height: 200px;
+}
+
+.gallery .topGallery .titleGallery {
+    font-size: 60px;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.gallery .topGallery .titleGallery hr {
+    width: 40px;
+    background-color: #07cbc9;
+    margin: 20px auto;
+    height: 3px;
+}
+
+.gallery .topGallery .introductionGallery {
+    font-size: 12px;
+    color: lightslategrey;
+    width: 50%;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.bottomGallery {
+    width: 100%;
+    height: 630px;
+    margin-top: 30px;
+    padding: 0 auto;
+    overflow: hidden;
+}
+
+.bottomGalleryContainer {
+    width: 1160px;
+    height: 630px;
+    margin: 0 auto;
+}
+
+.scienceLab, .kidsRoom {
+    width: 360px;
+    height: 300px;
+    padding-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.scienceLab dt, .indoorStadium dt, .transportation dt, .kidsRoom dt, .meditationClasses dt, .kidsPlaygound dt {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -4px;
+    padding-left: 1em;
+    text-transform: uppercase;
+}
+
+.indoorStadium, .transportation, .meditationClasses, .kidsPlaygound {
+    width: 360px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #07cbc9;
+    font-size: 15px;
+    color: white;
+    bottom: 0;
+}
+
+.footer p {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
